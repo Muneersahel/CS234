@@ -1,3 +1,4 @@
+package pencil;
 public class Pencil {
     String color;
     double length, price;

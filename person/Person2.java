@@ -1,4 +1,4 @@
-package person
+package person;
 
 public class Person2 extends Person {
     String color;
@@ -15,7 +15,10 @@ public class Person2 extends Person {
     }
 
     public static void main(String[] args) {
-        Person2 person3 = new Person2("Juma", 45, 1.5, "white");
-        person3.display();
+        Person person1 = new Person("Abdul", 45, 1.3);
+        Person2 person2 = new Person2("Juma", 45, 1.5, "white");
+        person1.display();   
+        System.out.println("\n");
+        person2.display();
     }
 }

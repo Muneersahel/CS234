@@ -1,9 +1,8 @@
 package student;
 public class Student{
-    public String regNum;
+    protected String regNum;
 
     public Student(String regNum){
         this.regNum = regNum;
     }
 }
-
