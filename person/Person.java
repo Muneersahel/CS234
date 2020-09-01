@@ -5,8 +5,8 @@ public class Person {
     public int age;
     public double height;
 
-    public Person(String naame, int age, double height) {
-        this.name = naame;
+    public Person(String name, int age, double height) {
+        this.name = name;
         this.age = age;
         this.height = height;
     }
