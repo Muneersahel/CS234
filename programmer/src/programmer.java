@@ -14,6 +14,6 @@ public class programmer extends Author{
     }
     public static void main(String[] args){
         Author a = new programmer();
-        a.write();
+        Author.write();
     }
 }

@@ -65,8 +65,8 @@ interface Storage {
 }
 
 class Product {
-  private String name;
-  private String material;
+  private final String name;
+  private final String material;
 
   public Product(String name, String material) {
       this.name = name;
